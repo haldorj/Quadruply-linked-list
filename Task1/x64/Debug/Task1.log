@@ -1,0 +1,28 @@
+﻿  main.cpp
+C:\3 Semester\data structures and algorithms\Compulsory2\Task1\Task1\List.h(75,17): warning C4553: '==': result of expression not used; did you intend '='?
+C:\3 Semester\data structures and algorithms\Compulsory2\Task1\Task1\List.h(70): message : while compiling class template member function 'void List<char>::ConstructRoot(T)'
+          with
+          [
+              T=char
+          ]
+C:\3 Semester\data structures and algorithms\Compulsory2\Task1\Task1\main.cpp(13): message : see reference to function template instantiation 'void List<char>::ConstructRoot(T)' being compiled
+          with
+          [
+              T=char
+          ]
+C:\3 Semester\data structures and algorithms\Compulsory2\Task1\Task1\main.cpp(10): message : see reference to class template instantiation 'List<char>' being compiled
+C:\3 Semester\data structures and algorithms\Compulsory2\Task1\Task1\List.h(76,16): warning C4553: '==': result of expression not used; did you intend '='?
+C:\3 Semester\data structures and algorithms\Compulsory2\Task1\Task1\List.h(77,14): warning C4553: '==': result of expression not used; did you intend '='?
+C:\3 Semester\data structures and algorithms\Compulsory2\Task1\Task1\List.h(78,16): warning C4553: '==': result of expression not used; did you intend '='?
+C:\3 Semester\data structures and algorithms\Compulsory2\Task1\Task1\List.h(97,19): warning C4553: '==': result of expression not used; did you intend '='?
+C:\3 Semester\data structures and algorithms\Compulsory2\Task1\Task1\List.h(89): message : while compiling class template member function 'void List<char>::InsertAtRightTail(T)'
+          with
+          [
+              T=char
+          ]
+C:\3 Semester\data structures and algorithms\Compulsory2\Task1\Task1\main.cpp(18): message : see reference to function template instantiation 'void List<char>::InsertAtRightTail(T)' being compiled
+          with
+          [
+              T=char
+          ]
+  Task1.vcxproj -> C:\3 Semester\data structures and algorithms\Compulsory2\Task1\x64\Debug\Task1.exe
