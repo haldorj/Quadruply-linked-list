@@ -210,6 +210,8 @@ inline void List<T>::AddNodeAbove(Node<T>* node, T data)
 	node->Up = newNode;
 	newNode->Down = node;
 
+	if (newNode->Down == UpTail) UpTail = newNode;
+
 	if (node->Left != nullptr && node->Left->Up != nullptr)
 	{
 		newNode->Left = node->Left->Up;
@@ -231,6 +233,8 @@ inline void List<T>::AddNodeBelow(Node<T>* node, T data)
 
 	node->Down = newNode;
 	newNode->Up = node;
+
+	if (newNode->Up == DownTail) DownTail = newNode;
 
 	if (node->Left != nullptr && node->Left->Down != nullptr)
 	{
@@ -254,6 +258,8 @@ inline void List<T>::AddNodeLeft(Node<T>* node, T data)
 	node->Left = newNode;
 	newNode->Right = node;
 
+	if (newNode->Right == LeftTail) LeftTail = newNode;
+
 	if (node->Up != nullptr && node->Up->Left != nullptr)
 	{
 		newNode->Up = node->Up->Left;
@@ -275,6 +281,8 @@ inline void List<T>::AddNodeRight(Node<T>* node, T data)
 
 	node->Right = newNode;
 	newNode->Left = node;
+
+	if (newNode->Left == RightTail) RightTail = newNode;
 
 	if (node->Up != nullptr && node->Up->Right != nullptr)
 	{
